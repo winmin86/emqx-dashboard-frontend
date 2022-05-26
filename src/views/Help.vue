@@ -2,11 +2,7 @@
   <div class="help-view">
     <div class="page-title">{{ $t('leftbar.help') }}</div>
 
-    <div class="help-item">
-      <h3>{{ $t('help.quickStart') }}</h3>
-      <p>{{ $t('help.emqxDesc') }}</p>
-      <a target="_blank" href="https://github.com/emqx/emqx">Github</a>
-    </div>
+
 
     <el-divider></el-divider>
 
@@ -43,27 +39,7 @@
 
     <el-divider></el-divider>
 
-    <div class="help-item">
-      <h3>{{ $t('help.followUs') }}</h3>
-      <a target="_blank" class="follow-link" href="https://github.com/emqx/emqx">
-        <i class="iconfont icon-git"></i>
-      </a>
-      <a target="_blank" class="follow-link" href="https://twitter.com/emqtt">
-        <i class="iconfont icon-tuite"></i>
-      </a>
-      <a target="_blank" class="follow-link" href="https://emqx.slack.com/">
-        <i class="iconfont icon-slack"></i>
-      </a>
-      <a target="_blank" class="follow-link" href="https://stackoverflow.com/questions/tagged/emq">
-        <i class="iconfont icon-stack-overflow"></i>
-      </a>
-      <a target="_blank" class="follow-link" href="https://groups.google.com/forum/#!forum/emqtt">
-        <i class="iconfont icon-icons-google_groups"></i>
-      </a>
-      <a target="_blank" class="follow-link" :href="$t(`help.ytLink`)">
-        <i class="iconfont icon-youtube"></i>
-      </a>
-    </div>
+    
   </div>
 </template>
 

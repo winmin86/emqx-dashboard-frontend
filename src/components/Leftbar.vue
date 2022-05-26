@@ -1,7 +1,7 @@
 <template>
   <div class="left-bar">
     <div class="logo-box">
-      <img class="logo" src="../assets/emq_logo.png" />
+      <img class="logo" src="../assets/deta_logo.svg" />
     </div>
     <el-menu
       mode="vertical"
@@ -178,12 +178,6 @@ export default {
               id: 'listeners',
               title: this.$t('leftbar.listeners'),
               index: '/listeners',
-            },
-            {
-              id: 'help',
-              title: this.$t('leftbar.help'),
-              index: '/help',
-              class: 'last-item',
             },
           ],
         },
