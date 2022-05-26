@@ -255,10 +255,12 @@ export default {
     width: 200px;
     color: #fff !important;
     background-color: #242327;
-    padding-left: 22px;
     height: 60px;
     line-height: 74px;
-
+	padding-left: 0;
+	text-align: center;
+	padding-top: 32px;
+	
     img {
       width: 72px;
       height: auto;
@@ -303,7 +305,7 @@ export default {
   }
 
   .menu-wrapper {
-    padding-top: 58px;
+    padding-top: 120px;
   }
 
   .el-submenu__title {
